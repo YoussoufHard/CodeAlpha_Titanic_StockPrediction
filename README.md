@@ -82,7 +82,7 @@ pip install -r requirements.txt
 ## Author
 
 \[Your Name]
-Email: \[[your.email@example.com](mailto:your.email@example.com)]
+Email: \[[ytangara2003@gmail.com](mailto:ytangara2003@gmail.com)]
 
 ---
 
