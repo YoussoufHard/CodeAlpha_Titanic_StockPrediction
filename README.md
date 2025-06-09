@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ## Author
 
-\YOUSSOUF TANGARA
+YOUSSOUF TANGARA
 Email: \[[ytangara2003@gmail.com](mailto:ytangara2003@gmail.com)]
 
 ---
