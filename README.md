@@ -8,16 +8,16 @@ Welcome to this repository containing the solutions for **TASK 1** and **TASK 2*
 
 ```
 
-├── Task1\_Titanic\_Classification
+├── Task1_Titanic_Classification
 │   ├── .ipynb\_checkpoints
 │   ├── Titanic Survival.ipynb
 │   └── train.csv
 │
 └── Task2\_Stock\_Prediction
 ├── .ipynb\_checkpoints
-├── AAPL\_stock\_data.csv
-├── lstm\_stock\_model.keras
-├── stock\_prediction.ipynb
+├── AAPL_stock_data.csv
+├── lstm_stock_model.keras
+├── stock_prediction.ipynb
 ├── README.md
 └── requirements.txt
 
@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 ## Author
 
-\[Your Name]
+\YOUSSOUF TANGARA
 Email: \[[ytangara2003@gmail.com](mailto:ytangara2003@gmail.com)]
 
 ---
