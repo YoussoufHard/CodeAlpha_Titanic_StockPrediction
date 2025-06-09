@@ -9,12 +9,12 @@ Welcome to this repository containing the solutions for **TASK 1** and **TASK 2*
 ```
 
 ├── Task1_Titanic_Classification
-│   ├── .ipynb\_checkpoints
+│   ├── .ipynb_checkpoints
 │   ├── Titanic Survival.ipynb
 │   └── train.csv
 │
-└── Task2\_Stock\_Prediction
-├── .ipynb\_checkpoints
+└── Task2_Stock_Prediction
+├── .ipynb_checkpoints
 ├── AAPL_stock_data.csv
 ├── lstm_stock_model.keras
 ├── stock_prediction.ipynb
