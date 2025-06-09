@@ -1,47 +1,96 @@
-# CodeAlpha_Titanic_StockPrediction
+# CodeAlpha Tasks - Titanic Classification & Stock Price Prediction
 
-This repository contains the completed tasks for the **CodeAlpha Data Science Internship - May Batch**.
-
-## 📌 Tasks Completed
-
-### 1. Titanic Classification
-- Predicts whether a passenger survived the Titanic shipwreck or not.
-- Used features such as age, sex, class, and more.
-- Dataset used: `train.csv` from Kaggle Titanic dataset.
-- Model: Logistic Regression / Random Forest (as needed).
-- Tool: Jupyter Notebook
-
-> Folder: `titanic_classification/`
+Welcome to this repository containing the solutions for **TASK 1** and **TASK 2** of the CodeAlpha challenge.
 
 ---
 
-### 2. Stock Price Prediction using LSTM
-- Predicts future stock prices using historical data.
-- Implemented a Long Short-Term Memory (LSTM) neural network.
-- Dataset: Extracted using Yahoo Finance or uploaded CSV.
-- Tool: Jupyter Notebook + TensorFlow / Keras
-
-> Folder: `stock_prediction/`
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 
-CodeAlpha\_Titanic\_StockPrediction/
-├── titanic\_classification/
-│   └── titanic\_classification.ipynb
-├── stock\_prediction/
-│   └── stock\_lstm\_prediction.ipynb
+├── Task1\_Titanic\_Classification
+│   ├── .ipynb\_checkpoints
+│   ├── Titanic Survival.ipynb
+│   └── train.csv
+│
+└── Task2\_Stock\_Prediction
+├── .ipynb\_checkpoints
+├── AAPL\_stock\_data.csv
+├── lstm\_stock\_model.keras
+├── stock\_prediction.ipynb
+├── README.md
+└── requirements.txt
 
-```
-
-## 📅 Submission Info
-
-- Internship: **CodeAlpha Data Science Internship – May 2025**
-- Submission Deadline: **10th June 2025**
+````
 
 ---
 
-Made with ❤️ by Youssouf Tangara
+## Task Descriptions
+
+### TASK 1 - Titanic Classification
+This notebook implements a classification model to predict whether a Titanic passenger survived or not.  
+**Objectives:**  
+- Analyze the factors affecting survival such as age, gender, socio-economic status, and more.  
+- Perform data preprocessing and handle missing values.  
+- Build and evaluate classification models (e.g., Random Forest, Logistic Regression).
+
+The `train.csv` file contains the raw data used for training.
+
+---
+
+### TASK 2 - Stock Price Prediction
+This notebook uses an LSTM model to predict the future stock price of a company (example: Apple - AAPL).  
+**Objectives:**  
+- Download and preprocess historical stock price data.  
+- Build an LSTM model for time series prediction.  
+- Predict stock prices for the next 30 days.  
+- Add technical indicators (RSI, MACD) for deeper analysis.
+
+The files `AAPL_stock_data.csv` and `lstm_stock_model.keras` contain the historical stock data and the trained model respectively.
+
+---
+
+## Prerequisites and Installation
+
+This project requires Python 3.x and the packages listed in `requirements.txt`.
+
+To install the dependencies, run:
+
+```bash
+pip install -r requirements.txt
+````
+
+---
+
+## Usage
+
+1. **Task 1**
+   Open and run `Task1_Titanic_Classification/Titanic Survival.ipynb` in Jupyter Notebook or JupyterLab.
+
+2. **Task 2**
+   Open and run `Task2_Stock_Prediction/stock_prediction.ipynb` in Jupyter Notebook or JupyterLab.
+
+---
+
+## Notes
+
+* This project is for educational purposes as part of the CodeAlpha challenge.
+* Stock price predictions are inherently uncertain and should **not** be used for real investment decisions.
+
+---
+
+## Author
+
+\[Your Name]
+Email: \[[your.email@example.com](mailto:your.email@example.com)]
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+Thank you for checking out this project!
+Happy learning and coding 🚀
